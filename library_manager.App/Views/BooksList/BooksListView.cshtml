@@ -1,0 +1,65 @@
+﻿@model List<BooksListViewModel>
+
+@{
+    ViewBag.Title = "Books list";
+    Layout = "_Layout";
+    int totalPages = (int)Math.Ceiling((double?)(ViewBag.TotalCount ?? 0) / (ViewBag.PageSize ?? 1));
+    
+}
+@if (Model != null)
+{
+    <table>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Actions</th>
+            <th>Edit</th>
+            <th>Remove</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>
+                    @book.BookName
+                </td>
+
+                <td>
+                    <form asp-action="BookView" asp-controller="Book" asp-route-id="@book.BookId">
+                        <button type="submit">See more</button>
+                    </form>
+                </td>
+
+                <td>
+                    <form asp-action="EditBookView" asp-controller="EditBook" asp-route-id="@book.BookId">
+                        <button type="submit">Edit</button>
+                    </form>
+                </td>
+
+                <td>
+                    <form asp-action="RemoveBookForm" asp-route-id="@book.BookId">
+                        <button type="submit">Remove</button>
+                    </form>
+                </td>
+
+            </tr>
+        }
+        </tbody>
+    </table>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            @for (int i = 1; i <= totalPages; i++)
+            {
+                <li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+                    <a class="page-link" href="@Url.Action("BooksListView", new { pageIndex = i, pageSize = ViewBag.PageSize })">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+}
+else
+    {
+    <p>No books available.</p>
+                            
+    }

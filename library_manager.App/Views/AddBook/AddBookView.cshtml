@@ -1,0 +1,42 @@
+﻿@model AddBookViewModel
+
+@{
+    ViewBag.Title = "Add new book";
+    Layout = "_Layout";
+}
+
+<form method="post">
+    <div class="form-group">
+        <label for="BookName">Title</label>
+        <input type="text" class="form-control" id="BookName" name="BookName" placeholder="Book title" asp-for="BookName"/>
+        <span asp-validation-for="BookName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Author">Author</label>
+        <select class="form-control" id="Author" asp-for="AuthorId">
+            @foreach (var author in Model.Authors)
+            {
+                <option value="@author.AuthorId">@author.Firstname @author.LastName</option>
+            }
+        </select>
+
+    </div>
+    <div class="form-group">
+        <label for="Descriptions">Descriptions</label>
+        <textarea class="form-control" id="Descriptions" name="Descriptions" placeholder="Book descriptions" rows="5" asp-for="Descriptions"></textarea>
+        <span asp-validation-for="Descriptions" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Category">Category</label>
+        <select class="form-control" id="Category" asp-for="CategoryId">
+            @foreach (var category in Model.Categories)
+            {
+                 <option value="@category.CategoryId">@category.CategoryName</option>
+            }
+        </select>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-secondary" asp-controller="BooksList" asp-action="BooksListView">Back</button>
+        <button type="submit" class="btn btn-primary" asp-action="AddBook">Dodaj</button>
+    </div>
+</form>

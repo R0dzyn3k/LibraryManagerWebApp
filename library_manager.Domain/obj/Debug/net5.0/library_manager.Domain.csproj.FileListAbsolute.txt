@@ -1,0 +1,12 @@
+C:\Users\barto\Documents\Studia\st2\Library manager\library_manager.Domain\bin\Debug\net5.0\library_manager.Domain.deps.json
+C:\Users\barto\Documents\Studia\st2\Library manager\library_manager.Domain\bin\Debug\net5.0\library_manager.Domain.dll
+C:\Users\barto\Documents\Studia\st2\Library manager\library_manager.Domain\bin\Debug\net5.0\ref\library_manager.Domain.dll
+C:\Users\barto\Documents\Studia\st2\Library manager\library_manager.Domain\bin\Debug\net5.0\library_manager.Domain.pdb
+C:\Users\barto\Documents\Studia\st2\Library manager\library_manager.Domain\obj\Debug\net5.0\library_manager.Domain.csproj.AssemblyReference.cache
+C:\Users\barto\Documents\Studia\st2\Library manager\library_manager.Domain\obj\Debug\net5.0\library_manager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\barto\Documents\Studia\st2\Library manager\library_manager.Domain\obj\Debug\net5.0\library_manager.Domain.AssemblyInfoInputs.cache
+C:\Users\barto\Documents\Studia\st2\Library manager\library_manager.Domain\obj\Debug\net5.0\library_manager.Domain.AssemblyInfo.cs
+C:\Users\barto\Documents\Studia\st2\Library manager\library_manager.Domain\obj\Debug\net5.0\library_manager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\barto\Documents\Studia\st2\Library manager\library_manager.Domain\obj\Debug\net5.0\library_manager.Domain.dll
+C:\Users\barto\Documents\Studia\st2\Library manager\library_manager.Domain\obj\Debug\net5.0\ref\library_manager.Domain.dll
+C:\Users\barto\Documents\Studia\st2\Library manager\library_manager.Domain\obj\Debug\net5.0\library_manager.Domain.pdb
