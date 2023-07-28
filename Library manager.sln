@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "library_manager.App", "library_manager.App\library_manager.App.csproj", "{DBC85B69-1934-491F-9F4D-6B38C7968828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "library_manager.Domain", "library_manager.Domain\library_manager.Domain.csproj", "{6CEC162C-C2EB-4B62-B28F-B7395184C38F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "library_manager.Infrastructure", "library_manager.Infrastructure\library_manager.Infrastructure.csproj", "{5687A5EE-5AC8-433C-8ED2-54EEA116B100}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBC85B69-1934-491F-9F4D-6B38C7968828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC85B69-1934-491F-9F4D-6B38C7968828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC85B69-1934-491F-9F4D-6B38C7968828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC85B69-1934-491F-9F4D-6B38C7968828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CEC162C-C2EB-4B62-B28F-B7395184C38F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CEC162C-C2EB-4B62-B28F-B7395184C38F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CEC162C-C2EB-4B62-B28F-B7395184C38F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CEC162C-C2EB-4B62-B28F-B7395184C38F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5687A5EE-5AC8-433C-8ED2-54EEA116B100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5687A5EE-5AC8-433C-8ED2-54EEA116B100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5687A5EE-5AC8-433C-8ED2-54EEA116B100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5687A5EE-5AC8-433C-8ED2-54EEA116B100}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
